@@ -1,0 +1,48 @@
+.card {
+    border: none;
+    border-radius: none;
+    /* width: 400px; */
+    width: 100%;
+    /* background: url('../../img/circles.png') no-repeat, linear-gradient(to right, #68b38400, #74c0c600);  */
+}
+
+.products {
+    width: 100%;
+}
+
+/* .imagenes {
+    width: 300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+} */
+
+img {
+    width: 300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.description {
+    text-align: justify;
+    /* text-align: center; */
+    font-family: sans-serif;
+}
+
+/*Center title, subtitle, img and desciprion inside the box*/
+.tsid {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: auto;
+}
+
+.suggestion {
+    padding: 5px;
+}

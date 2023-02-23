@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Container } from 'react-bootstrap';
+import { HashRouter, Route, Routes } from 'react-router-dom';
+import Main from './pages/Main';
+import NotFound from './pages/NotFound';
+import Faqs from './pages/Faqs';
+import Contacta from './pages/Contacta';
 
-function App() {
+import NavigationBar from "./components/NavigationBar";
+import Footer from './components/Footer';
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+
+      <main className='py-3'>
+
+        <Container>
+          <HashRouter>
+            <NavigationBar />
+            <Routes>
+              <Route path="/" element={<Main />} />
+              <Route path="/main" element={<Main />} />
+              <Route path="/main/faqs" element={<Faqs />} />
+              <Route path="/faqs" element={<Faqs />} />
+              <Route path='/contacta' element={<Contacta />} />
+              <Route path="/main/contacta" element={<Contacta />} />
+              <Route path='*' element={<NotFound />} />
+            </Routes>
+            <Footer />
+          </HashRouter>
+        </Container>
+      </main>
+
+    </>
+  )
 }
 
-export default App;
+export default App

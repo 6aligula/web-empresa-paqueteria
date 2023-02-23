@@ -1,0 +1,25 @@
+#logo {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+/*fixed de navigation bar to the top*/
+.fixed-top {
+    position: sticky;
+    top: 10px;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+#faqs_button {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+header {
+    background-color: aquamarine;
+    /* background-image: url("../cover.jpeg"); */
+
+}
