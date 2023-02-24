@@ -24,7 +24,7 @@ const Contacta = () => {
             <br></br>
             <h1>Formulario de contacto</h1>
 
-            <Form action="https://formsubmit.co/vinicio.naranjo15@gmail.com" method="POST" >
+            <Form action="https://formsubmit.co/agencia737.gerencia@gls-spain.es" method="POST" >
                 <Form.Group controlId='name'>
                     <Form.Label>Nombre*</Form.Label>
                     <Form.Control

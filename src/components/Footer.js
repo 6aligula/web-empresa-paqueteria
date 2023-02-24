@@ -23,21 +23,10 @@ const Footer = () => {
             <footer>
                 <div className='row'>
                     <div className="col-sm-6">
-                        &copy; 2023–2024 Neolog Agencia Gls en Sant Boi de Llobregat &middot;
-                    </div>
-                    <div className="col-sm-6 social">
                         <p>
-                            <a href="mailto:agencia737.gerencia@gls-spain.es">
-                                <i className="bi bi-envelope"></i>
-                                Correo (agencia737.gerencia@gls-spain.es)
-                            </a>
-                        </p>
-                    </div>
-                    <div className="col-sm-6 social">
-                        <p>
-                            <a href="tel:+34653745960">
-                                <i className="bi bi-whatsapp"></i>
-                                WhatsApp: 653 74 59 60
+                            <a href="https://www.facebook.com/people/Neolog-Sant-boi/pfbid02miQg4qgqrSouziQ4x8UxadbXtJ4bcxKjB4Jg7YApUB2PukvA4QeqJFoXqiZmWitMl/" target="_blank">
+                                <i className="bi bi-facebook"></i>
+                                Facebook
                             </a>
                         </p>
                     </div>
@@ -49,11 +38,33 @@ const Footer = () => {
                             </a> &middot;
                         </p>
                     </div>
-
                 </div>
+
+                <div className='row'>
+                    <div className="col-sm-6 social">
+                        <p>
+                            <a href="tel:+34653745960">
+                                <i className="bi bi-whatsapp"></i>
+                                WhatsApp: 653 74 59 60
+                            </a>
+                        </p>
+                    </div>
+                    <div className="col-sm-6 social">
+                        <p>
+                            <a href="mailto:agencia737.gerencia@gls-spain.es">
+                                <i className="bi bi-envelope"></i>
+                                Correo (agencia737.gerencia@gls-spain.es)
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
                 <br></br>
                 <div className='row'>
-                    <div className='col-sem-12'>
+                    <div className="col-sm-6">
+                        &copy; 2023–2024 Neolog Agencia Gls en Sant Boi de Llobregat &middot;
+                    </div>
+                    <div className='col-sm-6'>
                         <p>
                             <a href="#">
                                 <i className='bi bi-arrow-up-circle-fill'>
