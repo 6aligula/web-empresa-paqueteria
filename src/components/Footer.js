@@ -51,7 +51,7 @@ const Footer = () => {
                     </div>
                     <div className="col-sm-6 social">
                         <p>
-                            <a href="mailto:agencia737.gerencia@gls-spain.es">
+                            <a href="mailto:agencia.737@gls-spain.es">
                                 <i className="bi bi-envelope"></i>
                                 Correo (agencia737.gerencia@gls-spain.es)
                             </a>
